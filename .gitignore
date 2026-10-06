@@ -1,0 +1,18 @@
+# --- Secrets ------------------------------------------------
+# sa password for the local SQL Server container
+.devcontainer/.env
+
+# --- Build output -------------------------------------------
+bin/
+obj/
+**/bin/
+**/obj/
+*.dacpac
+
+# --- Generated pipeline artifacts ---------------------------
+out/
+
+# --- Personal data (privacy) --------------------------------
+# real exports stay local; only the fake sample is committed
+data/*.xml
+!data/personal.xml
