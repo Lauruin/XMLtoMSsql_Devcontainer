@@ -23,7 +23,7 @@ so its build doubles as a compatibility check [1].
 ## Quick start
 
 ```bash
-git clone <your-repo-url> xmlsql
+git clone https://github.com/Lauruin/XMLtoMSsql_Devcontainer xmlsql
 cd xmlsql
 cp .devcontainer/.env.example .devcontainer/.env   # then set a real sa password
 code .
